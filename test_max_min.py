@@ -2,7 +2,7 @@ from demo import *
 import random
 
 def test_max_min():
-    for _ in range(1000):
+    for _ in range(10000):
         arr = []
         for _ in range(10):
             arr.append(random.randint(10, 99))

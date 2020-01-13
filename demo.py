@@ -1,10 +1,11 @@
 import random
 
 def max_min(arr):
+    
     j = 1
-    max = arr[0]
+    max = 0
     while j < len(arr):
-        if arr[j] > max:
-            max = arr[j]
+        if arr[j] > arr[max]:
+            max = j
         j += 1
-    return max
+    return arr[max]
