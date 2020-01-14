@@ -15,6 +15,7 @@ def test_select_sort():
     for _ in range(100000):
         j = 0
         arr = [random.randint(10, 99) for _ in range(10)]
+        
         select_sort(arr)
         
         while j < len(arr) - 1:

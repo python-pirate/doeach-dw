@@ -22,5 +22,4 @@ def select_sort(arr):
 
         if max != i - 1:
             arr[max], arr[i - 1] = arr[i - 1], arr[max]
-        
         i -= 1
